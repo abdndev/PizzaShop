@@ -5,7 +5,8 @@ class AddProducts < ActiveRecord::Migration[6.0]
   		:description => 'This is Hawaiian pizza', 
   		:price => 350, 
   		:size => 30, 
-  		:is_spicy => false, :is_veg => false, 
+  		:is_spicy => false, 
+  		:is_veg => false, 
   		:is_best_offer => false, 
   		:path_to_image => '/images/gavayskaya.jpg'
   		})
@@ -15,7 +16,8 @@ class AddProducts < ActiveRecord::Migration[6.0]
   		:description => 'Nice Pepperoni pizza',
   		:price => 450, 
   		:size => 30,
-  		:is_spicy => false,:is_veg => false,
+  		:is_spicy => false,
+  		:is_veg => false,
   		:is_best_offer => true,
   		:path_to_image => '/images/pepperoni.jpg'
   		})
