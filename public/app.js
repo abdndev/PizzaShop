@@ -1,5 +1,5 @@
 
-function something()
+/*function something()
 {
 	var x = window.localStorage.getItem('bbb'); // x = hh['bbb']
 
@@ -9,7 +9,7 @@ function something()
 
 	alert(x);
 	
-}
+} */
 
 function add_to_cart(id)
 {
